@@ -1,0 +1,15 @@
+Description: We want to automate the process of ad quality procedures/tracking/grunt work.
+
+Two systems we are pulling info from:
+-Confiant 
+-Ad Lightning
+
+The program will:
+1. Go into each system depending on the URL
+2. Pull the relevant information based off of:
+    -vap(sovrn's ad call)
+        -If not found, mark as passback.
+    -campaign ID (4 numbers)
+    -UCRID
+    -SeatID (potentially)
+3. Write this information to a csv output.`
